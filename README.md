@@ -41,5 +41,6 @@ The layout is as shown below: The layout is split into 2-sections (LHS and RHS)
 * The RHS section:
    * Displays the Top-9 recommended movies (Limited to 9 for better aesthetics)
    * Rate as many movies as possible for better recommendations
-   * If no movies are rated or the system could not generate enough recommendations then the remaining slots would be occupied by the most popular movies
-   * 
+   * If no movies are rated by the user or the system could not generate enough recommendations then the remaining slots would be occupied by the most popular movies
+   * The recommendations are based on IBCF. For efficiency purposes the IBCF similarity amtrix is pre-computed and stored in the data folder. The recommendations are computed using matrix products accordingly.
+   * The recommendations are shown as movie posters. Very few movies do not have images available in which case the reommendation might not be returned in that particular slot
