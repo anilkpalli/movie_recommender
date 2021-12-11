@@ -45,4 +45,4 @@ The layout is as shown below: The layout is split into 2-sections (LHS and RHS)
    * The recommendations are based on IBCF. For efficiency purposes the IBCF similarity amtrix is pre-computed and stored in the data folder. The recommendations are computed using matrix products accordingly.
    * The recommendations are shown as movie posters. Very few movies do not have images available in which case the reommendation might not be returned in that particular slot
 
-   Note that the recommendations are reactive and could have couple of seconds lag 
+   Note that the recommendations are reactive for every user input and could have 1-2 secs lag 
