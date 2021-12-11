@@ -2,6 +2,12 @@
  
 This is a demo app for movie recommender systems.
 
+## Usage
+
+1. Clone the repository
+2. Create new python=3.8 version environment and install the libraries from requriements.txt: pip install -r requirements.txt
+3. Browse to the folder (local path to cloned repository) from terminal, activate the environment and run `python application.py`
+4. The applciation should be up and running on: http://127.0.0.1:5000/
 
 ## Recommender systems
 
