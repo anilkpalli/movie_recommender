@@ -33,12 +33,12 @@ The layout is as shown below: The layout is split into 2-sections (LHS and RHS)
 
 ![image](https://user-images.githubusercontent.com/67958934/145664575-467e8039-19b5-446a-b448-7c038d8fe834.png)
 
-* The LHS section:
+* The LHS (User input) section:
    * Allows the user to browse the movies in a table and rate the movies on a scale of 1-5. The unrated movies can be left as 0
  ![image](https://user-images.githubusercontent.com/67958934/145664687-31f94f74-e5fe-4b8e-adcf-19d9b532e5a7.png)
    * User can also filter the movies using the filter section just below the table header across all the columns. By default the search is case-sensitive, however it can be disabled as shown by the tooltip when hover over the filter section
  ![image](https://user-images.githubusercontent.com/67958934/145664710-8668d22e-a65c-43c8-9937-5383574056cc.png)
-* The RHS section:
+* The RHS (Recommendation) section:
    * Displays the Top-9 recommended movies (Limited to 9 for better aesthetics)
    * Rate as many movies as possible for better recommendations
    * If no movies are rated by the user or the system could not generate enough recommendations then the remaining slots would be occupied by the most popular movies
